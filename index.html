@@ -94,10 +94,12 @@
         <div class="container">
             <div class="features__content row">
                     <h3 class="features__title-main">specialties</h3>
-                    <div class="col-6">
+                    <div class="col-6 features__slider">
                          <img class="features__img" src="img/features/cake.png" alt="">
-                         <span class="features__square square__yellow"></span>
+                         <img class="features__img" src="img/features/cake.png" alt="">
+                         <img class="features__img" src="img/features/cake.png" alt="">
                     </div>
+                    <span class="features__square square__yellow"></span>
                     <div class="col-6">
                         <h2 class="features__title title">chocolate pancakes</h2>
                         <p class="features__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
@@ -107,5 +109,18 @@
             </div>
         </div>
     </section>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script>
+        $('.features__slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+        });
+    </script>
 </body>
 </html>

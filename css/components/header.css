@@ -5,6 +5,7 @@
 }
 
 .header__menu {
+    list-style: none;
     justify-content: space-around;
 }
 

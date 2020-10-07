@@ -53,3 +53,44 @@
     left: -25px;
     top: 195px;
 }
+
+.features__slider {
+    border:none;
+    outline: none;
+}
+
+.features .container  
+.slick-prev.slick-arrow,
+.features .container
+.slick-next.slick-arrow{
+    display: none !important;
+}
+
+#slick-slide-control00,
+#slick-slide-control01,
+#slick-slide-control02 {
+    font-size: 0;
+    background: none ;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+
+.features .slick-dots {
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    left: 99%;
+    color:rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.slick-slide{
+    outline: none; 
+    border:none; 
+}
+
+.features .slick-active{
+    color: #FFFFFF;
+}
+
