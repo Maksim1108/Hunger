@@ -1,0 +1,19 @@
+.booking {
+    height: 675px;
+}
+
+.booking__content {
+    position: relative;
+}
+
+.booking__title::before {
+    content: "";
+    border-radius: 50px;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: 265px;
+    left: 320px;
+    margin-left: -30px;
+    background: var(--yellow);
+}

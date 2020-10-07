@@ -1,0 +1,54 @@
+.team {
+    background: url(../../img/team/team-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.team__content {
+    position: relative;
+}
+
+.team__title-main {
+    position: absolute;
+    left: 46%;
+    top: 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.team__title {
+    color: #FFFFFF;
+}
+
+.team__title::before {
+    content: "";
+    border-radius: 50px;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: 265px;
+    right: 290px;
+    background: var(--yellow);
+}
+
+.team__subtitle {
+    color: #FFFFFF;
+}
+
+.team__discription {
+    color: #FFFFFF;
+}
+
+.team__img {
+    margin: 50px 0 50px 60px;
+}
+
+.team__square {
+    left: -25px;
+    top: 195px;
+}
