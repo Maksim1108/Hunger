@@ -1,0 +1,27 @@
+.events {
+    background: url(../../img/events/events-bg.jpg) center;
+    background-size: cover;
+    height: 675px;
+}
+
+.events__content {
+    position: relative;
+}
+
+.events__title-main {
+    position: absolute;
+    left: 43%;
+    top: 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.events__img {
+    margin-top: 75px;
+}

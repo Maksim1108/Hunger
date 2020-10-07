@@ -63,3 +63,13 @@
     line-height: 18px;
     text-align: center;
 }
+
+.right__square {
+    top: 230px;
+    right: 0px;
+}
+
+.left__square {
+    left: -25px;
+    top: 195px;
+}
