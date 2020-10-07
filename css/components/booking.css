@@ -6,14 +6,32 @@
     position: relative;
 }
 
+.booking__title {
+    padding-top: 162px;
+    font-family: 'Banny Bold Round' ;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .booking__title::before {
     content: "";
     border-radius: 50px;
     width: 60px;
     height: 5px;
     position: absolute;
-    top: 265px;
+    top: 220px;
     left: 320px;
     margin-left: -30px;
     background: var(--yellow);
+}
+
+.booking__img {
+    padding: 70px 0 70px 0;
+}
+
+.booking__square {
+    top: 230px;
+    right: 0px; 
 }
