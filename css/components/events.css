@@ -1,7 +1,6 @@
 .events {
     background: url(../../img/events/events-bg.jpg) center;
     background-size: cover;
-    height: 675px;
 }
 
 .events__content {
@@ -23,5 +22,58 @@
 }
 
 .events__img {
-    margin-top: 75px;
+    margin: 75px 0 75px 0;
+}
+
+.left__img {
+    margin-left: 50px;
+}
+
+
+.left__text {
+    position: absolute;
+    left: 300px;
+    bottom: 325px;
+    width: 475px;
+    height: 85px;
+    background-color: #000000;
+    font-family: 'Banny Bold Round' ;
+    font-size: 24px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.right__text {
+    position: absolute;
+    right: 315px;
+    bottom: 325px;
+    width: 475px;
+    height: 85px;
+    background-color: #000000;
+    font-family: 'Banny Bold Round' ;
+    font-size: 24px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+.events__number {
+    position: absolute;
+    bottom: 40px;
+    left: 385px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.5);
 }

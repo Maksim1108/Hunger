@@ -1,0 +1,43 @@
+.contact {
+    height: 800px;
+}
+
+.contact__content {
+    position: relative;
+}
+
+.contact__title {
+    padding-top: 100px;
+    font-family: 'Banny Bold Round' ;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact__title::before {
+    content: "";
+    border-radius: 50px;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: 155px;
+    left: 50%;
+    margin-left: -30px;
+    background: var(--yellow);
+}
+
+.contact__subtitle {
+    padding-top: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.contact__input {
+    margin: 50px 0 10px 0;
+}
+

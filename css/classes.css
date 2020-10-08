@@ -24,6 +24,10 @@
     text-transform: uppercase;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 .square__yellow {
     position: absolute;
     z-index: 3;
@@ -43,7 +47,7 @@
 }
 
 .subtitle {
-    padding-top: 10px;
+    padding-top: 30px;
     width: 600px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -71,5 +75,5 @@
 
 .left__square {
     left: -25px;
-    top: 195px;
+    top: 230px;
 }
