@@ -1,7 +1,3 @@
-.booking {
-    height: 675px;
-}
-
 .booking__content {
     position: relative;
 }
@@ -34,4 +30,33 @@
 .booking__square {
     top: 230px;
     right: 0px; 
+}
+
+.booking__columns {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.booking__input {
+    padding-left: 15px;
+    margin: 10px 5px 0 0;
+    width: 277px;
+    height: 60px;
+    background: #E5E5E5;
+    border-radius: 5px;
+}
+
+.booking-btn {
+    margin: 10px 0 0 20px;
+    width: 593px;
+    height: 60px;
+    border:none;
+    outline: none;
+    background: #E8C300;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
 }

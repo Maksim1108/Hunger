@@ -81,6 +81,15 @@
             <div class="booking__content row">
                 <div class="col-6">
                     <h2 class="booking__title">book a table</h2>
+                    <div class="booking__columns">
+                        <input type="text" class="booking__input" placeholder="Name">
+                        <input type="text" class="booking__input" placeholder="Email">
+                        <input type="text" class="booking__input" placeholder="Phone">
+                        <input type="text" class="booking__input" placeholder="People">
+                        <input type="text" class="booking__input" placeholder="Date (mm/dd)">
+                        <input type="text" class="booking__input" placeholder="Time">
+                    </div>
+                    <button class="booking-btn">Book now</button>
                 </div>
                 <div class="col-6">
                     <img class="booking__img" src="img/booking/about-img.png" alt="">
@@ -141,18 +150,27 @@
             <div class="contact__content">
                 <h2 class="contact__title">CONTACT</h2>
                 <p class="contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis <br> at velit maximus, molestie est a, tempor magna.</p>
-                <div class="contact__input flex">
-                    <div class="col-4"><input placeholder="Name" type="text"></div>
-                    <div class="col-4"><input placeholder="Email" type="text"></div>
-                    <div class="col-4"><input placeholder="Phone" type="text"></div>
+                <div class="contact__input-row row">
+                    <div class="col-4"><input type="text" class="contact__input" placeholder="Name"></div>
+                    <div class="col-4"><input type="text" class="contact__input" placeholder="Email"></div>
+                    <div class="col-4"><input type="text" class="contact__input" placeholder="Phone"></div>
                 </div>
-                <input class="hhh2" placeholder="Message" type="text">
+                <input class="contact__input-message" placeholder="Message" type="text">
+                <p>5th London Boulevard, U.K.  +40 729 131 637/+40 726 458 782   office@mindblister.com</p>
             </div>
         </div>
     </section>
 
+    <section class="map">
+    </section>
 
-
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__description">© Copyright <span class="bold">Mindblister</span> 2019</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
