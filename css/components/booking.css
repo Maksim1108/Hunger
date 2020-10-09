@@ -24,7 +24,7 @@
 }
 
 .booking__img {
-    padding: 70px 0 70px 0;
+    margin-top: 70px;
 }
 
 .booking__square {
@@ -59,4 +59,11 @@
     font-size: 12px;
     line-height: 20px;
     color: #FFFFFF;
+}
+
+.booking__graph {
+    margin: 0 0 40px 385px;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(51, 51, 51, 0.5);
 }
