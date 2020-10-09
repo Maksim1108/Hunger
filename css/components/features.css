@@ -1,7 +1,6 @@
 .features {
     background: url(../../img/features/feature-bg.jpg) no-repeat center;
     background-size: cover;
-    height: 800x;
 }
 
 .features__content {
@@ -32,7 +31,7 @@
     width: 60px;
     height: 5px;
     position: absolute;
-    top: 265px;
+    top: 275px;
     right: 290px;
     background: var(--yellow);
 }
