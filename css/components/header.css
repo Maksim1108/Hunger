@@ -82,19 +82,9 @@
   }
 
 .header__btn {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 20px;
-    color: #FFFFFF;
-    margin-top: 60px;
+    margin: 60px 20px 0 20px;
     width: 200px;
     height: 60px;
-    border:none;
-    outline: none;
-    background: var(--yellow);
-    border-radius: 5px;
 }
 
 .header__btn-down {
@@ -107,6 +97,10 @@
     background: #FFFFFF;
     border:none;
     outline: none;
+}
+
+.header__btn-down:active {
+    transform: scale(0.97);
 }
 
 .header__btn-down::after {
@@ -123,14 +117,22 @@
     border-left: 0;
 }
 
-.btn-yellow {
-    margin-right: 20px;
-}
-
 .btn-transparent {
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.5);
-    margin-left: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-transparent:active {
+    transform: scale(0.97);
 }
 
 .header__icon {

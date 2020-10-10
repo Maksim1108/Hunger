@@ -22,6 +22,7 @@
 }
 
 .features__title {
+    margin-top: 217px;
     color: #FFFFFF;
 }
 
@@ -37,11 +38,13 @@
 }
 
 .features__subtitle {
+    margin-top: 30px;
     color: #FFFFFF;
 }
 
 .features__discription {
-    color: #FFFFFF;
+    margin-top: 20px;
+    color: var(--description);
 }
 
 .features__img {

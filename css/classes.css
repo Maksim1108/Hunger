@@ -38,7 +38,6 @@
 }
 
 .title {
-    padding-top: 217px;
     font-family: 'Banny Bold Round' ;
     font-size: 36px;
     line-height: 48px;
@@ -47,7 +46,6 @@
 }
 
 .subtitle {
-    padding-top: 30px;
     width: 600px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -58,7 +56,6 @@
 }
 
 .description {
-    padding-top: 20px;
     width: 600px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -66,6 +63,24 @@
     font-size: 14px;
     line-height: 18px;
     text-align: center;
+}
+
+.btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border:none;
+    outline: none;
+    background: var(--yellow);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.97);
 }
 
 .right__square {

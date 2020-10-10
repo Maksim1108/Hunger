@@ -4,11 +4,6 @@
 
 .menu__title {
     padding-top: 100px;
-    font-family: 'Banny Bold Round' ;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 .menu__title::before {
@@ -49,6 +44,9 @@
     font-size: 12px;
     line-height: 18px;
     color: #333333;
+    border:none;
+    outline: none;
+    background: #FFFFFF;
 }
 
 .menu__link::after {

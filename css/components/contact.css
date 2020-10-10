@@ -3,12 +3,7 @@
 }
 
 .contact__title {
-    padding-top: 100px;
-    font-family: 'Banny Bold Round' ;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-    text-transform: uppercase;
+    margin-top: 100px;
 }
 
 .contact__title::before {
@@ -17,7 +12,7 @@
     width: 60px;
     height: 5px;
     position: absolute;
-    top: 155px;
+    top: 55px;
     left: 50%;
     margin-left: -30px;
     background: var(--yellow);
@@ -48,21 +43,16 @@
     height: 120px;
     margin-top: 10px;
     padding-left: 15px;
-    background: #E5E5E5;
+    background: var(--lightgrey);
     border-radius: 5px
 }
 
 .contact-btn {
     height: 60px;
     width: 1295px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    background-color: var(--yellow);
     margin: 10px 0 100px 0;
     font-weight: bold;
     font-size: 12px;
     line-height: 20px;
     text-transform: uppercase;
-    color: #FFFFFF;
 }
