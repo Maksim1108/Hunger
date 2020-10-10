@@ -11,7 +11,7 @@
 
     <header class="header">
         <div class="container">
-            <div class="header__content">
+            <div class="header__content wow fadeInDownBig">
                 <nav class="header__nav">
                     <ul class="header__menu flex">
                             <li class="nav__item"><a class="nav__link"  href="#">HOME</a></li>
@@ -45,13 +45,13 @@
     <section class="about" id="about">
         <div class="container">
             <div class="about__content row">
-                <div class="col-6 ">
+                <div class="col-6 wow fadeInLeftBig">
                     <h2 class="about__title title">about us</h2>
                     <p class="about__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
                     </p>
                     <p class="about__discription description">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
                 </div>
-                <div class="col-6">
+                <div class="col-6 wow fadeInRightBig">
                     <img class="about__img" src="img/aboutus/about-img.png" alt="">
                     <span class="about__square square__yellow"></span>
                 </div>
@@ -63,11 +63,11 @@
         <div class="container">
             <div class="team__content row">
                 <h3 class="team__title-main">OUR TEAM</h3>
-                <div class="col-6">
+                <div class="col-6 wow fadeInLeftBig">
                      <img class="team__img" src="img/team/masterchef.png" alt="">
                      <span class="team__square square__yellow"></span>
                 </div>
-                <div class="col-6">
+                <div class="col-6 wow fadeInRightBig">
                     <h2 class="team__title title">master chef</h2>
                     <p class="team__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
                     </p>
@@ -80,7 +80,7 @@
     <section class="booking" id="booking">
         <div class="container">
             <div class="booking__content row">
-                <div class="col-6">
+                <div class="col-6 wow fadeInLeftBig">
                     <h2 class="booking__title title">book a table</h2>
                     <div class="booking__columns">
                         <input type="text" class="booking__input" placeholder="Name">
@@ -92,7 +92,7 @@
                     </div>
                     <button class="booking-btn btn">Book now</button>
                 </div>
-                <div class="col-6">
+                <div class="col-6 wow fadeInRightBig">
                     <img class="booking__img" src="img/booking/about-img.png" alt="">
                     <span class="booking__square square__yellow"></span>
                 </div>
@@ -105,13 +105,13 @@
         <div class="container">
             <div class="features__content row">
                     <h3 class="features__title-main">specialties</h3>
-                    <div class="col-6 features__slider">
+                    <div class="col-6 features__slider wow fadeInLeftBig">
                          <img class="features__img" src="img/features/cake.png" alt="">
                          <img class="features__img" src="img/features/cake.png" alt="">
                          <img class="features__img" src="img/features/cake.png" alt="">
                     </div>
-                    <span class="features__square square__yellow"></span>
-                    <div class="col-6">
+                    <span class="features__square square__yellow wow fadeInLeftBig"></span>
+                    <div class="col-6 wow fadeInRightBig">
                         <h2 class="features__title title">chocolate pancakes</h2>
                         <p class="features__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
                         </p>
@@ -495,12 +495,12 @@
         <div class="container">
             <div class="events__content row">
                 <h3 class="events__title-main">PRIVATE EVENTS</h3>
-                <div class="col-6">
+                <div class="col-6 wow fadeInLeftBig">
                     <img class="events__img left__img" src="img/events/event1.png" alt="">
                      <span class="left__square square__yellow"></span>
                      <p class="left__text">weddings</p>
                 </div>
-                <div class="col-6">
+                <div class="col-6 wow fadeInRightBig">
                     <img class="events__img" src="img/events/event2.png" alt="">
                     <span class="right__square square__yellow"></span>
                     <p class="right__text">corporate pzrties</p>
@@ -510,7 +510,7 @@
         </div>
     </section>
 
-    <section class="gallery flex" id="galerie">
+    <section class="gallery flex wow fadeInLeftBig" id="galerie">
         <img class="gallery__img" src="img/gallery/gallery1.png" alt="">
         <img class="gallery__img" src="img/gallery/gallery2.png" alt="">
         <img class="gallery__img" src="img/gallery/gallery3.png" alt="">
@@ -519,7 +519,7 @@
 
     <section class="contact" id="contact">
         <div class="container">
-            <div class="contact__content">
+            <div class="contact__content wow fadeInDownBig">
                 <h2 class="contact__title title">CONTACT</h2>
                 <p class="contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis <br> at velit maximus, molestie est a, tempor magna.</p>
                 <div class="contact__input-row flex">
@@ -533,12 +533,12 @@
         </div>
     </section>
 
-    <section class="map">
+    <section class="map wow fadeInDownBig">
     </section>
 
     <footer class="footer">
         <div class="container">
-            <div class="footer__content">
+            <div class="footer__content wow fadeInDownBig">
                 <p class="footer__description">© Copyright <span class="bold">Mindblister</span> 2019</p>
             </div>
         </div>
@@ -547,6 +547,12 @@
     <script src="js/sideBarTab.js"></script>
     <script src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+    new WOW().init();
+    </script>
+
     <script>
         $('.features__slider').slick({
         dots: true,
