@@ -47,6 +47,7 @@
     border:none;
     outline: none;
     background: #FFFFFF;
+    cursor: pointer;
 }
 
 .menu__link::after {
