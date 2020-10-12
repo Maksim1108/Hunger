@@ -1,16 +1,12 @@
 .header {
-    background: url(../../img/header/background.jpg) center;  
-    background-size: cover;
-    min-height: 800px;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
 }
 
 .header__menu {
     list-style: none;
     justify-content: space-around;
-}
-
-.header__content {
-    position: relative;
 }
 
 .header__wheel {
@@ -35,128 +31,6 @@
     text-decoration: underline;
 }
 
-.work__time {
-    position: absolute;
-    bottom: 125px;
-    left: -120px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 12px;
-    color: #FFFFFF;
-    transform: rotate(-90deg);
-}
-
-.header__inner {
-    text-align: center;
-}
-
-.header__subtitle {
-    padding-top: 151px;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.5em;
-    color: #FFFFFF;
-}
-
-.header__title {
-    font-family: 'Banny Bold Round';
-    font-size: 96px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.header__title::before {
-    content: "";
-    border-radius: 50px;
-    width: 60px;
-    height: 5px;
-    position: absolute;
-    bottom: 100px;
-    left: 50%;
-    margin-left: -30px;
-    background: var(--yellow);
-  }
-
-.header__btn {
-    margin: 60px 20px 0 20px;
-    width: 200px;
-    height: 60px;
-}
-
-.header__btn-down {
-    position: absolute;
-    bottom: -135px;
-    right: 620px;
-    width: 40px;
-    height: 40px;
-    border-radius:50%;
-    background: #FFFFFF;
-    border:none;
-    outline: none;
-}
-
-.header__btn-down:active {
-    transform: scale(0.97);
-}
-
-.header__btn-down::after {
-    content: "";
-    position: absolute;
-    top: 13px;
-    left: 14px;
-    width: 7px;
-    height: 7px;
-    transform: rotate(45deg);
-    border-radius: 2px;
-    border: 4px solid #333333;
-    border-top: 0;
-    border-left: 0;
-}
-
-.btn-transparent {
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 20px;
-    color: #FFFFFF;
-    outline: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.btn-transparent:active {
-    transform: scale(0.97);
-}
-
-.header__icon {
-    margin-top: 20px;
-    width: 60px;
-    height: 60px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius:50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header__icon:hover {
-    background: #E5E5E5;
-    transition: 0.8s;
-}
-
-.social__col {
-    position: absolute;
-    right: 0;
-    top: 300px;
-    flex-direction: column;
-}
 
 
 
