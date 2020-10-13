@@ -18,29 +18,34 @@
                             <li class="nav__item"><a class="nav__link"  href="#about">ABOUT</a></li>
                             <li class="nav__item"><a class="nav__link"  href="#team">TEAM</a></li>
                             <li class="nav__item"><a class="nav__link"  href="#booking">BOOKING</a></li>
-                            <img class="header__wheel" src="img/header/wheel.png" alt="">
+                            <img id="wheel" class="header__wheel" src="img/header/wheel.png" alt="">
                             <li class="nav__item"><a class="nav__link"  href="#menu">MENU</a></li>
                             <li class="nav__item"><a class="nav__link"  href="#galerie">GALERIE</a></li>
                             <li class="nav__item"><a class="nav__link"  href="#events">EVENTS</a></li>
                             <li class="nav__item"><a class="nav__link"  href="#contact">CONTACT</a></li>
                     </ul>
                 </nav>
-                <div class="header__inner">
-                    <p class="work__time">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
-                    <p class="header__subtitle">RESTAURANT</p>
-                    <h1 class="header__title">hungry people</h1>
-                    <button class="header__btn btn">BOOK TABLE</button>
-                    <button class="header__btn btn-transparent">EXPLORE</button>
-                    <a href="#about"><button class="header__btn-down"></button></a>
-                    <div class="social__col flex">
-                        <a class="header__icon" href="https://www.facebook.com/" target="_blank"><img src="img/header/social1.svg" alt=""></a>
-                        <a class="header__icon" href="https://twitter.com/" target="_blank"><img src="img/header/social2.svg" alt=""></a>
-                        <a class="header__icon" href="https://www.instagram.com/" target="_blank"><img src="img/header/social3.svg" alt=""></a> 
-                    </div>
-                </div>
             </div>
         </div>
     </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content wow fadeInDownBig">
+                    <p class="work__time">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+                    <p class="hero__subtitle">RESTAURANT</p>
+                    <h1 class="hero__title">hungry people</h1>
+                    <button class="hero__btn btn">BOOK TABLE</button>
+                    <button class="hero__btn btn-transparent">EXPLORE</button>
+                    <a href="#about"><button class="hero__btn-down"></button></a>
+                    <div class="social__col flex">
+                        <a class="hero__icon" href="https://www.facebook.com/" target="_blank"><img src="img/hero/social1.svg" alt=""></a>
+                        <a class="hero__icon" href="https://twitter.com/" target="_blank"><img src="img/hero/social2.svg" alt=""></a>
+                        <a class="hero__icon" href="https://www.instagram.com/" target="_blank"><img src="img/hero/social3.svg" alt=""></a> 
+                    </div>
+            </div>
+        </div>
+    </section>
 
     <section class="about" id="about">
         <div class="container">
@@ -548,6 +553,7 @@
     <script src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/index.js"></script>
 
     <script>
     new WOW().init();
