@@ -1,0 +1,139 @@
+@media screen and (max-width: 414px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .header__content {
+        display: none;
+    }
+
+    .subtitle {
+        width: 100vw;
+    }
+
+    .description {
+        width: 100vw;
+    }
+
+    .square__yellow {
+        width: 130px;
+        height: 130px;
+        border: 10px solid #E8C300;
+    }
+
+    .hero {
+        padding-top: 0;
+    }
+
+    .hero__subtitle {
+        padding-top: 120px;
+    }
+
+    .hero__title {
+        padding-top: 25px;
+        font-size: 80px;
+    }
+
+    .hero__title::before {
+        top: 150px;
+    }
+
+    .hero__btn {
+        margin: 40px 10px 0 10px;
+        width: 140px;
+        height: 55px;
+    }
+
+    .social__col {
+        display: none;
+    }
+
+    .work__time {
+        bottom: -140px;
+        left: 80px;
+        transform: rotate(0);
+        color: var(--description);
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .about__title {
+        margin-top: 75px;
+    }
+
+    .about__title::before {
+        top: 130px;
+        left: 210px;
+    }
+
+    .about__img {
+        width: 375px;
+        height: 375px;
+        padding-left: 25px;
+    }
+    .about__square {
+        top: 525px;
+        right: 10px;
+    }
+
+    .team__title-main {
+        left: 40%;
+    }
+
+    .team__img {
+        width: 375px;
+        height: 375px;
+        margin: 90px 0 0 25px;
+    }
+
+    .team__square {
+        left: 10px;
+    }
+
+    .team__title {
+        margin-top: 50px;
+    }
+
+    .team__title::before {
+        top: 575px;
+        right: 175px;
+    }
+
+    .team__discription {
+        margin-bottom: 50px;
+    }
+
+    .booking__title {
+        margin-top: 50px;
+    }
+
+    .booking__title::before {
+        top: 110px;
+        left: 210px;
+    }
+
+    .booking__columns {
+        text-align: center;
+        margin: 30px 0 15px 0;
+    }
+
+    .booking-btn {
+        width: 292px;
+        margin-left: 60px;
+    }
+
+    .booking__graph {
+        text-align: center;
+        margin: 40px 5px 40px 5px;
+    }
+
+    .booking__img {
+        display: none;
+    }
+
+    .booking__square {
+        display: none;
+    }
+}
