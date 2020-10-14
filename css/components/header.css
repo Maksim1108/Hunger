@@ -9,9 +9,12 @@
     justify-content: space-around;
 }
 
-.header__wheel {
+.header__logo {
     margin-top: 25px;
     cursor: pointer;
+    animation-name: logo-is-active;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
 
 .nav__item {
@@ -30,6 +33,16 @@
 
 .nav__link:hover {
     text-decoration: underline;
+}
+
+@keyframes logo-is-active {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 
