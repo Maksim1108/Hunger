@@ -1,5 +1,5 @@
-@media screen and (max-width: 414px) {
-    html {
+@media screen and (max-width: 578px) {
+    html,body {
         overflow-x: hidden;
     }
 
@@ -135,5 +135,50 @@
 
     .booking__square {
         display: none;
+    }
+
+    .features__title-main {
+        left:37%;
+    }
+
+    .features__slider {
+        right: 25px;
+        top: 60px;
+    }
+
+    .features__square {
+        left: 10px;
+        top: 205px;
+    }
+
+    .features .slick-dots {
+        bottom: 0px;
+        left: 55%;
+    }
+
+    .features__title {
+        margin-top: 130px;
+    }
+
+    .features__title::before {
+        top: 685px;
+        right: 175px;
+    }
+
+    .features__subtitle {
+        margin-top: 20px;
+    }
+
+    .features__discription {
+        margin: 20px 0 60px 0;
+    }
+
+    .events__title-main {
+        left: 33%
+    }
+
+    .events__img {
+        width: 375px;
+        height: 375px;
     }
 }
