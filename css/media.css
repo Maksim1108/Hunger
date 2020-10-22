@@ -3,6 +3,10 @@
         overflow-x: hidden;
     }
 
+    .preloader__icon {
+        left:35%;
+    }
+
     .header__content {
         display: none;
     }
