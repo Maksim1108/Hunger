@@ -1,4 +1,4 @@
-@import "components/preloader.css";
+@import "components/preloader.css"; 
 @import "components/header.css";
 @import "components/hero.css";
 @import "components/about.css";
@@ -17,4 +17,4 @@
 @import "fonts.css";
 @import "slick.css";
 @import "animate.css";
-@import "media.css";
+@import "media.css";     
