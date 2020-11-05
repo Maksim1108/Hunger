@@ -4,18 +4,21 @@ body {
 }
 
 .preloader {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 100;
     height: 100vh;
     width: 100vw;
     background:url('../../img/features/feature-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     animation: 1s preloader 5s linear forwards;
 }
 
 .preloader__icon {
+    position: absolute;
     animation-name: logo-is-active;
     animation-duration: 5s;
 }
